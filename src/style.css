@@ -1,7 +1,44 @@
-h1 {
-  font-family: "DM Serif Display", serif;
+:root {
+  --heading-font: "DM Serif Display", serif;
+  --secondary-font: "Poppins", sans-serif;
+  --branding-color: #7d8aadf7;
+  --secondary-color: #334369;
+  --subtle-color: #f1f1f1;
 }
 
-h2 p {
-  font-family: "Poppins", sans-serif;
+div {
+  display: block;
+}
+.hero {
+  background-color: var(--subtle-color);
+  padding: 100px 20px;
+}
+
+.hero-text h1 {
+  font-family: var(--heading-font);
+  color: var(--secondary-color);
+  font-size: 101px;
+  letter-spacing: 10px;
+  font-weight: bold;
+}
+
+.hero-text h2 {
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
+  font-size: 36px;
+  margin: 20px;
+}
+
+.hero-text p {
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.hero-btn-branding {
+  color: var(--branding-color);
+  font-size: 30px;
+  padding: 8px 26px;
+  transition: all 100ms ease;
 }
