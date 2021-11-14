@@ -111,6 +111,11 @@
   font-size: 40px;
 }
 
+.homepage-paragraph {
+  font-family: var(--secondary-font);
+  font-size: 16px;
+}
+
 .homepage-content .homepage-paragraph {
   line-height: 25px;
 }
