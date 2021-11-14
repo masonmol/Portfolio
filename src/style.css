@@ -42,3 +42,38 @@ div {
   padding: 8px 26px;
   transition: all 100ms ease;
 }
+
+.homepage-content-container {
+  padding: 220px 50px 0;
+}
+
+.homepage-content {
+  margin: 0 30px;
+  margin-bottom: 50px;
+}
+
+.homepage-content .homepage-content-container {
+  justify-content: center;
+  margin-bottom: 200px;
+  padding-top: 170px;
+}
+
+.homepage-content .homepage-paragraph {
+  line-height: 25px;
+  text-align: justify;
+}
+
+.homepage-content {
+  color: var(--branding-color);
+}
+
+.name-color {
+  color: var(--secondary-color);
+}
+
+.homepage-about-me-button .btn-branding {
+  background-color: var(--branding-color);
+  color: var(--subtle-color);
+  border-radius: 5px;
+  padding: 10px;
+}
