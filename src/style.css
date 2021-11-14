@@ -91,7 +91,7 @@
 
 .homepage-content {
   margin: 0 30px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   color: var(--branding-color);
 }
 
@@ -101,9 +101,18 @@
   padding-top: 170px;
 }
 
+.introduction-header {
+  font-family: var(--heading-font);
+  font-size: 30px;
+}
+
+.introduction-subheader {
+  font-family: var(--heading-font);
+  font-size: 40px;
+}
+
 .homepage-content .homepage-paragraph {
   line-height: 25px;
-  text-align: justify;
 }
 
 .name-color {
@@ -137,6 +146,10 @@
 
 .card-text {
   font-family: var(--secondary-font);
+  color: var(--secondary-color);
+}
+
+.side-arrow {
   color: var(--secondary-color);
 }
 
