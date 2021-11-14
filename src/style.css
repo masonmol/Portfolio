@@ -73,7 +73,20 @@ div {
 
 .homepage-about-me-button .btn-branding {
   background-color: var(--branding-color);
-  color: var(--subtle-color);
+  border: 1px solid var(--branding-color);
+  color: white;
   border-radius: 5px;
-  padding: 10px;
+  font-size: 17px;
+  line-height: 30px;
+  padding: 8px 20px;
+  transition: all 200ms ease;
+}
+
+.btn-branding:hover {
+  background-color: white;
+  color: var(--branding-color);
+}
+
+.card-img-top {
+  size: 30px;
 }

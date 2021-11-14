@@ -83,5 +83,104 @@
         </div>
       </div>
     </div>
+
+    <!--Homepage Projects-->
+    <div class="container homepage-projects mb-5">
+      <h2 class="mb-4 text-center">My projects</h2>
+
+      <!-- Carousel -->
+      <div
+        id="projectsCarousel"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <!-- Carousel content -->
+        <div class="carousel-inner">
+          <!-- First Slide -->
+          <div class="carousel-item active" data-bs-interval="10000">
+            <div class="container d-flex justify-content-center">
+              <div
+                class="card border-light border-5 shadow rounded mb-5"
+                style="width: 24rem"
+              >
+                <img
+                  src="/images/matcha.png"
+                  class="card-img-top"
+                  alt="matcha-site-thumbnail"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Matcha Website with basic HTML, CSS, and JavaScript
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Second Slide -->
+          <div class="carousel-item" data-bs-interval="10000">
+            <div class="container d-flex justify-content-center">
+              <div
+                class="card border-light border-5 shadow rounded mb-5"
+                style="width: 24rem"
+              >
+                <img
+                  src="/images/weather.png"
+                  class="card-img-top"
+                  alt="weather-app-thumbnail"
+                />
+                <div class="card-body">
+                  <p class="card-text">Vanilla JavaScript Weather App</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Third Slide -->
+          <div class="carousel-item" data-bs-interval="10000">
+            <div class="container d-flex justify-content-center">
+              <div
+                class="card border-light border-5 shadow rounded mb-5"
+                style="width: 24rem"
+              >
+                <img
+                  src="/images/coming-soon.jpeg"
+                  class="card-img-top"
+                  alt="coming-soon-thumbnail"
+                />
+                <div class="card-body">
+                  <p class="card-text">Work in progress..</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carousel side arrows -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#projectsCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#projectsCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="project-button d-flex justify-content-center">
+        <a class="secondary-button" href="#" title="Morgan Mason's Projects"
+          >My Projects</a
+        >
+      </div>
+    </div>
   </body>
 </html>
