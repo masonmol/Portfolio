@@ -33,6 +33,7 @@
   <body>
     <!--Hero-->
     <div class="hero">
+      <div class="overlay">
       <div class="hero-text text-center">
         <h1>MORGAN MASON</h1>
         <h2>Educator & Aspiring Front-end Developer</h2>
@@ -47,6 +48,24 @@
           </a>
         </div>
       </div>
+</div>
+    </div>
+
+    <!--Photo Credit-->
+    <div class="mt-4 text-center photo-credit">
+    <i class="fas fa-map-marker-alt"></i> Carmel, Indiana | Photo by <a
+        href="https://unsplash.com/@element5digital?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        class="photographer-credit"
+        title="View photographer's work on Unsplash"
+        >Element5 Digital</a
+      >
+      on
+      <a
+        href="https://unsplash.com/photos/z6i_UCBuu5Q"
+        class="unsplash-link"
+        title="View related images on Unsplash"
+        >Unsplash</a
+      >
     </div>
 
     <!--Homepage Introduction-->
@@ -86,7 +105,7 @@
 
     <!--Homepage Projects-->
     <div class="container homepage-projects mb-5">
-      <h2 class="mb-4 text-center">My projects</h2>
+      <h2 class="mb-4 text-center project-title">My Projects</h2>
 
       <!-- Carousel -->
       <div
@@ -101,15 +120,15 @@
             <div class="container d-flex justify-content-center">
               <div
                 class="card border-light border-5 shadow rounded mb-5"
-                style="width: 24rem"
+                style="width: 32rem"
               >
                 <img
                   src="/images/matcha.png"
-                  class="card-img-top"
+                  class="img-fluid card-img-top"
                   alt="matcha-site-thumbnail"
                 />
                 <div class="card-body">
-                  <p class="card-text">
+                  <p class="card-text text-center text-muted">
                     Matcha Website with basic HTML, CSS, and JavaScript
                   </p>
                 </div>
@@ -122,39 +141,21 @@
             <div class="container d-flex justify-content-center">
               <div
                 class="card border-light border-5 shadow rounded mb-5"
-                style="width: 24rem"
+                style="width: 32rem"
               >
                 <img
                   src="/images/weather.png"
-                  class="card-img-top"
+                  class="img-fluid card-img-top"
                   alt="weather-app-thumbnail"
                 />
                 <div class="card-body">
-                  <p class="card-text">Vanilla JavaScript Weather App</p>
+                  <p class="card-text text-center text-muted">Vanilla JavaScript Weather App</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- Third Slide -->
-          <div class="carousel-item" data-bs-interval="10000">
-            <div class="container d-flex justify-content-center">
-              <div
-                class="card border-light border-5 shadow rounded mb-5"
-                style="width: 24rem"
-              >
-                <img
-                  src="/images/coming-soon.jpeg"
-                  class="card-img-top"
-                  alt="coming-soon-thumbnail"
-                />
-                <div class="card-body">
-                  <p class="card-text">Work in progress..</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+    
 
         <!-- Carousel side arrows -->
         <button
@@ -176,6 +177,8 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+
+      <!--Project Button-->
       <div class="project-button d-flex justify-content-center">
         <a class="secondary-button" href="#" title="Morgan Mason's Projects"
           >My Projects</a
