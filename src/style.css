@@ -71,6 +71,7 @@
 .photo-credit {
   color: var(--secondary-color);
   font-family: var(--secondary-font);
+  font-size: 15px;
 }
 
 .credit-link {
@@ -174,4 +175,50 @@
 .secondary-button:hover {
   background-color: white;
   color: var(--branding-color);
+}
+
+@media (max-width: 900px) {
+  .hero {
+    height: 290px;
+    background-size: 100%;
+    background-position: top;
+  }
+}
+@media (max-width: 900px) {
+  .hero-text h1 {
+    font-size: 44px;
+    padding-top: 60px;
+  }
+
+  .hero-text h2 {
+    font-size: 16px;
+  }
+
+  .hero-text p {
+    font-size: 13px;
+  }
+
+  .hero-btn-branding {
+    font-size: 20px;
+  }
+
+  .photo-credit {
+    font-size: 11px;
+  }
+
+  .homepage-content-container {
+    padding: 90px 10px 20px 10px;
+  }
+
+  .introduction-header {
+    font-size: 25px;
+  }
+
+  .introduction-subheader {
+    font-size: 36px;
+  }
+
+  .homepage-paragraph {
+    font-size: 13px;
+  }
 }
