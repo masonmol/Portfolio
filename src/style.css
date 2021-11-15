@@ -177,6 +177,45 @@
   color: var(--branding-color);
 }
 
+/* About Me Section */
+
+.about-section {
+  padding: 120px 30px 50px;
+}
+
+.about-me-heading {
+  font-family: var(--heading-font);
+  font-size: 80px;
+  color: var(--secondary-color);
+}
+
+.about-me-paragraph {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  color: var(--branding-color);
+}
+
+.headshot {
+  margin: 0;
+  width: 450px;
+  border-radius: 10px;
+}
+
+.project-button {
+  background-color: var(--branding-color);
+  font-family: var(--secondary-font);
+  border: 1px solid var(--branding-color);
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+  line-height: 30px;
+  padding: 8px 20px;
+  transition: all 200ms ease;
+}
+
+/* Responsiveness */
+
 @media (max-width: 900px) {
   .hero {
     height: 290px;
