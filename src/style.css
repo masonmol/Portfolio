@@ -159,24 +159,6 @@
   color: var(--secondary-color);
 }
 
-.secondary-button {
-  background-color: var(--branding-color);
-  font-family: var(--secondary-font);
-  border: 1px solid var(--branding-color);
-  text-decoration: none;
-  color: white;
-  border-radius: 5px;
-  font-size: 15px;
-  line-height: 30px;
-  padding: 8px 20px;
-  transition: all 200ms ease;
-}
-
-.secondary-button:hover {
-  background-color: white;
-  color: var(--branding-color);
-}
-
 /* About Me Section */
 
 .about-section {
@@ -345,5 +327,30 @@
 
   .homepage-paragraph {
     font-size: 13px;
+  }
+
+  /* About Me Page */
+
+  .about-responsive {
+    text-align: center;
+  }
+  .about-me-heading {
+    font-size: 55px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .about-me-paragraph {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .project-button {
+    text-align: center;
+  }
+
+  .college-name,
+  .degree-title {
+    font-size: 19px;
   }
 }
