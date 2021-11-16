@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
     <!--Bootstrap-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -18,17 +18,17 @@
       crossorigin="anonymous"
     ></script>
 
-      <!--Font Awesome Icons-->
+    <!--Font Awesome Icons-->
     <script
       src="https://kit.fontawesome.com/019c9ed4c5.js"
       crossorigin="anonymous"
     ></script>
 
-      <!--Google Fonts-->
+    <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Playfair+Display:wght@400;500;600&family=Poppins:wght@300&display=swap"
       rel="stylesheet"
     />
 
@@ -37,8 +37,8 @@
     <title>Morgan Mason | Portfolio Homepage</title>
   </head>
   <body>
-<!--Navbar-->
-<nav class="navbar navbar-expand-lg navbar-light fixed-top p-3">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top p-3">
       <div class="container">
         <a
           class="navbar-brand border border-dark p-3 text-dark mt-2"
@@ -100,34 +100,38 @@
     <!--Hero-->
     <div class="hero">
       <div class="overlay">
-      <div class="hero-text text-center">
-        <h1>MORGAN MASON</h1>
-        <h2>Educator & Aspiring Front-end Developer</h2>
-        <p class="mb-5">Based in the United States</p>
-        <div class="arrow-down">
-          <a
-            href="#about-section"
-            class="btn hero-btn-branding mt-4"
-            title="Read about Morgan Mason"
-          >
-            <i class="fas fa-angle-double-down" aria-hidden="true"> </i>
-          </a>
+        <div class="hero-text text-center">
+          <h1>MORGAN MASON</h1>
+          <h2>Educator & Aspiring Front-end Developer</h2>
+          <p class="mb-5">Based in the United States</p>
+          <div class="arrow-down">
+            <a
+              href="#about-section"
+              class="btn hero-btn-branding mt-4"
+              title="Read about Morgan Mason"
+            >
+              <i class="fas fa-angle-double-down" aria-hidden="true"> </i>
+            </a>
+          </div>
         </div>
       </div>
-</div>
     </div>
 
     <!--Photo Credit-->
     <div class="mt-4 text-center photo-credit text-muted">
-    <i class="fas fa-map-marker-alt current-icon"></i> Carmel, Indiana | Photo by <a
-        href="https://unsplash.com/@element5digital?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank"
+      <i class="fas fa-map-marker-alt current-icon"></i> Carmel, Indiana | Photo
+      by
+      <a
+        href="https://unsplash.com/@element5digital?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        target="_blank"
         class="credit-link"
         title="View photographer's work on Unsplash"
         >Element5 Digital</a
       >
       on
       <a
-        href="https://unsplash.com/photos/z6i_UCBuu5Q" target="_blank"
+        href="https://unsplash.com/photos/z6i_UCBuu5Q"
+        target="_blank"
         class="credit-link"
         title="View related images on Unsplash"
         >Unsplash</a
@@ -215,45 +219,46 @@
                   alt="weather-app-thumbnail"
                 />
                 <div class="card-body">
-                  <p class="card-text text-center text-muted">Vanilla JavaScript Weather App</p>
+                  <p class="card-text text-center text-muted">
+                    Vanilla JavaScript Weather App
+                  </p>
                 </div>
               </div>
             </div>
           </div>
 
-    
+          <!-- Carousel side arrows -->
+          <button
+            class="carousel-control-prev side-arrow"
+            type="button"
+            data-bs-target="#projectsCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next side-arrow"
+            type="button"
+            data-bs-target="#projectsCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
 
-        <!-- Carousel side arrows -->
-        <button
-          class="carousel-control-prev side-arrow"
-          type="button"
-          data-bs-target="#projectsCarousel"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next side-arrow"
-          type="button"
-          data-bs-target="#projectsCarousel"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <!--Project Button-->
+        <div class="homepage-about-me-button text-center">
+          <a
+            href="#"
+            class="btn btn-branding mt-4"
+            title="View Morgan Mason's Projects"
+          >
+            View Projects
+          </a>
+        </div>
       </div>
-
-      <!--Project Button-->
-       <div class="homepage-about-me-button text-center">
-              <a
-                href="#"
-                class="btn btn-branding mt-4"
-                title="View Morgan Mason's Projects"
-              >
-               View Projects
-              </a>
-            </div>
     </div>
   </body>
 </html>

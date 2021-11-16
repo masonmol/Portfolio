@@ -1,5 +1,5 @@
 :root {
-  --heading-font: "DM Serif Display", serif;
+  --heading-font: "Playfair Display", serif;
   --secondary-font: "Poppins", sans-serif;
   --branding-color: #7d8aadf7;
   --secondary-color: #334369;
@@ -7,6 +7,24 @@
 }
 
 /* HOMEPAGE */
+
+/* Navbar */
+.navbar {
+  background-color: #ffffff8a;
+  padding-bottom: 20px;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  font-family: var(--heading-font);
+}
+
+.nav-item {
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 30px;
+  font-family: var(--secondary-font);
+}
 
 /* Hero */
 
@@ -162,7 +180,7 @@
 /* About Me Section */
 
 .about-section {
-  padding: 120px 30px 50px;
+  padding: 180px 30px 50px;
 }
 
 .about-me-heading {
