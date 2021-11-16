@@ -240,6 +240,14 @@
   line-height: 25px;
 }
 
+/* Certificates */
+
+.certificate-header {
+  font-family: var(--heading-font);
+  color: var(--secondary-color);
+  font-size: 32px;
+}
+
 /* Responsiveness */
 
 @media (max-width: 900px) {
