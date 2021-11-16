@@ -17,6 +17,7 @@
 .navbar-brand {
   font-size: 20px;
   font-family: var(--heading-font);
+  color: var(--secondary-color);
 }
 
 .nav-item {
@@ -24,6 +25,7 @@
   font-weight: 500;
   padding-left: 30px;
   font-family: var(--secondary-font);
+  color: var(--secondary-color);
 }
 
 /* Hero */
@@ -298,6 +300,94 @@
   font-family: var(--heading-font);
   color: var(--secondary-color);
   font-size: 32px;
+}
+
+/* Footer */
+.contact-box {
+  background-color: var(--subtle-color);
+  margin: 100px;
+  padding: 20px 120px;
+  border-radius: 15px;
+}
+
+.contact-box {
+  font-family: var(--secondary-font);
+}
+
+.footer-button {
+  background-color: var(--branding-color);
+  font-family: var(--secondary-font);
+  border: 1px solid var(--branding-color);
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+  line-height: 30px;
+  padding: 8px 20px;
+  transition: all 200ms ease;
+}
+
+.work-footer {
+  color: var(--secondary-color);
+  font-weight: bolder;
+}
+
+.email-footer-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-family: var(--secondary-font);
+  font-size: 20px;
+}
+
+.email-footer-link:hover {
+  color: var(--branding-color);
+}
+
+.social-links a {
+  border: 1px solid var(--branding-color);
+  border-radius: 50%;
+  color: var(--branding-color);
+  font-size: 25px;
+  margin: 30px 10px;
+  padding: 10px 18px;
+  transition: all 200ms ease;
+}
+
+.scroll-up-button {
+  font-size: 16px;
+  margin-bottom: 60px;
+  margin-top: 55px;
+}
+.scroll-up-text {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-family: var(--secondary-font);
+  font-size: 16px;
+}
+
+.scroll-up-text:hover {
+  color: var(--branding-color);
+}
+
+.fa-angle-double-up {
+  margin: 5px;
+}
+
+.code-name,
+.git-link {
+  color: var(--branding-color);
+  text-decoration: none;
+  font-family: var(--secondary-font);
+  font-size: 15px;
+}
+
+.git-link {
+  color: var(--secondary-color);
+  font-weight: bolder;
+}
+
+.git-link:hover {
+  color: var(--branding-color);
 }
 
 /* Responsiveness */
