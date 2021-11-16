@@ -214,6 +214,58 @@
   transition: all 200ms ease;
 }
 
+/* Education Section */
+
+.education-section {
+  margin-bottom: 40px;
+}
+.education-header {
+  font-family: var(--heading-font);
+  color: var(--secondary-color);
+  font-size: 32px;
+}
+
+.graduation-icon {
+  font-size: 30px;
+  color: var(--secondary-color);
+}
+
+.college-name {
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  color: var(--secondary-color);
+  font-weight: bolder;
+}
+
+.college-town {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  color: var(--branding-color);
+}
+
+.education-college-style {
+  border-right: 2px solid var(--subtle-color);
+}
+
+.bachelor-title {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  color: var(--branding-color);
+}
+
+.degree-title {
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  color: var(--secondary-color);
+  font-weight: bolder;
+}
+
+.concentration-title {
+  font-family: var(--secondary-font);
+  font-size: 14px;
+  color: var(--branding-color);
+}
+
 /* Skills Section */
 
 .skills-education-section {
