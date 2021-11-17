@@ -393,13 +393,39 @@
 /* Work Page */
 
 .work-section {
-  padding: 160px 20px;
+  padding: 160px 20px 20px 50px;
 }
 
 .work-heading {
   font-family: var(--heading-font);
-  font-size: 80px;
+  font-size: 65px;
   color: var(--secondary-color);
+}
+
+.website-title {
+  font-family: var(--heading-font);
+  font-size: 30px;
+  color: var(--secondary-color);
+}
+
+.website-content {
+  font-family: var(--secondary-font);
+  font-size: 17px;
+  color: var(--branding-color);
+}
+
+.website-github-link {
+  font-family: var(--secondary-font);
+  font-size: 15px;
+  color: var(--secondary-color);
+}
+
+.website-github-link:hover {
+  color: var(--branding-color);
+}
+
+.website-photo {
+  box-shadow: 2px 2px 8px rgb(44 37 63 / 71%);
 }
 
 /* Responsiveness */
