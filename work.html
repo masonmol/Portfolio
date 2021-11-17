@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Font Awesome Icons-->
+    <script
+      src="https://kit.fontawesome.com/019c9ed4c5.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Playfair+Display:wght@400;500;600&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--CSS Link-->
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Morgan Mason | Portfolio Work</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top p-3">
+      <div class="container">
+        <a
+          class="navbar-brand border border-dark p-3 text-dark mt-2"
+          href="/"
+          title="Morgan Mason's Homepage"
+          >MM
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item mt-3">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/"
+                title="Morgan Mason's Homepage"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item mt-3">
+              <a class="nav-link" href="about.html" title="About Morgan Mason"
+                >ABOUT</a
+              >
+            </li>
+            <li class="nav-item mt-3">
+              <a
+                class="nav-link"
+                href="work.html"
+                title="Morgan Mason's Portfolio"
+              >
+                WORK</a
+              >
+            </li>
+            <li class="nav-item mt-3">
+              <a
+                class="nav-link"
+                href="contact.html"
+                title="Contact Morgan Mason"
+                >CONTACT</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--My Work-->
+    <div class="container work-section text-center">
+      <div class="work-content">
+        <h1 class="work-heading mb-4">My Work</h1>
+      </div>
+
+      <div class="row">
+        <!--Matcha Website-->
+        <div class="col-md-6 mt-5">
+          <img
+            src="/images/matcha.png"
+            class="img-fluid mb-4 d-none d-sm-block"
+            title="Matcha Website"
+            alt="Matcha Website Preview"
+          />
+          <h4>Matcha Website</h4>
+          <p>Built with HTML, CSS and JavaScript</p>
+
+          <div class="text-center">
+            <a
+              href="https://modest-liskov-e057f5.netlify.app/"
+              class="btn btn-branding mt-3 project-button"
+              target="_blank"
+              title="Launch Website"
+              >View Website</a
+            >
+          </div>
+          <div class="mt-4">
+            <a
+              href="https://github.com/masonmol/Matcha"
+              class="website-github-link"
+              target="_blank"
+            >
+              <i class="fas fa-angle-double-right">&nbsp; &nbsp; </i
+              ><i class="fab fa-github"></i>&nbsp; View my GitHub repository</a
+            >
+          </div>
+        </div>
+        <!--Vanilla JS Weather App-->
+        <div class="col-md-6 mt-5">
+          <img
+            src="/images/weather.png"
+            class="img-fluid mb-4 d-none d-sm-block"
+            title="Matcha Website"
+            alt="Matcha Website Preview"
+          />
+          <h4>Vanilla JS Weather App</h4>
+          <p>Built usinG HTML, advanced CSS, JavaScript and an active API</p>
+
+          <div class="text-center">
+            <a
+              href="https://musing-jackson-634811.netlify.app/"
+              class="btn btn-branding mt-3 project-button"
+              target="_blank"
+              title="Launch Website"
+              >View Website</a
+            >
+          </div>
+          <div class="mt-4">
+            <a
+              href="https://github.com/masonmol/Vanilla-Weather-App"
+              class="website-github-link"
+              target="_blank"
+            >
+              <i class="fas fa-angle-double-right">&nbsp; &nbsp; </i
+              ><i class="fab fa-github"></i>&nbsp; View my GitHub repository</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Footer-->
+
+    <!--Footer Contact-->
+    <div
+      class="
+        contact-box
+        justify-content-between
+        d-none d-md-flex
+        align-items-center
+      "
+    >
+      <div>
+        <h4 class="mt-3 work-footer">Work Inquiry</h4>
+        <p class="mt-3 work-footer">Let's make beautiful things together!</p>
+      </div>
+      <div>
+        <a
+          href="/contact.html"
+          class="btn btn-branding footer-button"
+          title="Contact Morgan Mason"
+        >
+          Contact Me</a
+        >
+      </div>
+    </div>
+    <!--Footer Email-->
+    <div class="d flex justify-content-center mt-5 text-center">
+      <a
+        href="mailto:morganlmason96@gmail.com"
+        class="email-footer-link"
+        title="Email Morgan Mason"
+      >
+        morganlmason96@gmail.com
+      </a>
+    </div>
+
+    <!--Footer Social Links-->
+    <div class="social-links justify-content-center d-flex">
+      <a
+        href="mailto:morganlmason96@gmail.com"
+        title="Send Morgan Mason an email"
+      >
+        <i class="far fa-envelope" aria-hidden="true"> </i>
+      </a>
+      <a
+        href="https://www.linkedin.com/in/morgan-mason-671062214"
+        target="_blank"
+        title="View Morgan Mason's Linkedin profile"
+      >
+        <i class="fab fa-linkedin" aria-hidden="true"></i>
+      </a>
+      <a
+        href="https://github.com/masonmol"
+        target="_blank"
+        title="View Morgan Mason's Github"
+      >
+        <i class="fab fa-github" aria-hidden="true"></i>
+      </a>
+    </div>
+    <!--Scroll up button-->
+    <div class="scroll-up-button text-center mt-5">
+      <a href="#" class="scroll-up-text" title="back to top">
+        Back to top <i class="fas fa-angle-double-up"></i>
+      </a>
+    </div>
+
+    <!--Copyright-->
+    <p class="text-center code-name">
+      This website was coded by Morgan Mason and is
+      <a
+        href="https://github.com/masonmol/Portfolio"
+        class="git-link"
+        target="_blank"
+      >
+        open-sourced.
+      </a>
+    </p>
+  </body>
+</html>

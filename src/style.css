@@ -10,7 +10,7 @@
 
 /* Navbar */
 .navbar {
-  background-color: #ffffff8a;
+  background-color: #ffffff8f;
   padding-bottom: 20px;
 }
 
@@ -388,6 +388,18 @@
 
 .git-link:hover {
   color: var(--branding-color);
+}
+
+/* Work Page */
+
+.work-section {
+  padding: 160px 20px;
+}
+
+.work-heading {
+  font-family: var(--heading-font);
+  font-size: 80px;
+  color: var(--secondary-color);
 }
 
 /* Responsiveness */
