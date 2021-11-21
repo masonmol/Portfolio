@@ -428,6 +428,39 @@
   box-shadow: 2px 2px 8px rgb(44 37 63 / 71%);
 }
 
+/* Contact Page */
+.contact-section {
+  padding: 160px 50px;
+}
+
+.contact-header {
+  font-size: 64px;
+  font-family: var(--heading-font);
+  color: var(--secondary-color);
+  margin-bottom: 50px;
+}
+
+.contact-sub-header {
+  font-size: 28px;
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
+  margin-bottom: 8px;
+}
+
+.contact-section p {
+  color: var(--branding-color);
+  font-family: var(--secondary-font);
+  font-size: 18px;
+}
+
+.contact-section a {
+  text-decoration: none;
+}
+
+.contact-section a:hover {
+  text-decoration: underline;
+}
+
 /* Responsiveness */
 
 @media (max-width: 900px) {
