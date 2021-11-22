@@ -17,7 +17,12 @@
 .navbar-brand {
   font-size: 20px;
   font-family: var(--heading-font);
-  color: var(--secondary-color);
+  color: var(--secondary-color) !important;
+  border-color: var(--secondary-color) !important;
+}
+
+.nav-link {
+  color: var(--secondary-color) !important;
 }
 
 .nav-item {
@@ -37,6 +42,7 @@
   background-size: cover;
   background-position: 15% 18%;
   background-image: url(../images/background-image-1.jpg);
+  background-repeat: no-repeat;
 }
 
 .overlay {
@@ -262,9 +268,13 @@
   font-weight: bolder;
 }
 
+.education-degree-style {
+  padding: 20px;
+}
+
 .concentration-title {
   font-family: var(--secondary-font);
-  font-size: 14px;
+  font-size: 15px;
   color: var(--branding-color);
 }
 
@@ -306,7 +316,7 @@
 .contact-box {
   background-color: var(--subtle-color);
   margin: 100px;
-  padding: 20px 120px;
+  padding: 20px 50px;
   border-radius: 15px;
 }
 
@@ -337,6 +347,7 @@
   color: var(--secondary-color);
   font-family: var(--secondary-font);
   font-size: 20px;
+  padding: 20px;
 }
 
 .email-footer-link:hover {
@@ -393,7 +404,7 @@
 /* Work Page */
 
 .work-section {
-  padding: 160px 20px 20px 50px;
+  padding: 160px 20px 50px 20px;
 }
 
 .work-heading {
@@ -430,7 +441,7 @@
 
 /* Contact Page */
 .contact-section {
-  padding: 160px 50px;
+  padding: 160px 50px 10px 50px;
 }
 
 .contact-header {
@@ -448,7 +459,7 @@
 }
 
 .contact-section p {
-  color: var(--branding-color);
+  color: rgb(31, 129, 221);
   font-family: var(--secondary-font);
   font-size: 18px;
 }
@@ -466,7 +477,6 @@
 @media (max-width: 900px) {
   .hero {
     height: 290px;
-    background-size: 100%;
     background-position: top;
   }
 }
@@ -486,10 +496,11 @@
 
   .hero-btn-branding {
     font-size: 20px;
+    margin-top: 1.5rem;
   }
 
   .photo-credit {
-    font-size: 11px;
+    font-size: 9px;
   }
 
   .homepage-content-container {
@@ -512,6 +523,7 @@
 
   .about-responsive {
     text-align: center;
+    padding-left: 24;
   }
   .about-me-heading {
     font-size: 55px;
@@ -527,9 +539,68 @@
   .project-button {
     text-align: center;
   }
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    background-color: #ffffff;
+    position: relative;
+  }
+
+  .work-section,
+  .about-section,
+  .contact-section {
+    padding: 34px 20px 50px 20px;
+  }
+}
+
+@media (max-width: 414px) {
+  .card-text {
+    height: 50px;
+  }
+
+  .hero-btn-branding {
+    margin-top: 0px;
+  }
+
+  .hero-text h1 {
+    padding-top: 20px;
+  }
+
+  .work-heading,
+  .contact-header {
+    font-size: 55px;
+  }
+
+  .work-section,
+  .about-section,
+  .contact-section {
+    padding: 34px 30px 50px 30px;
+  }
+
+  .website-title {
+    font-size: 25px;
+  }
+
+  .website-content {
+    font-size: 15px;
+  }
+
+  .headshot {
+    width: 258px;
+  }
+
+  .code-name {
+    padding: 20px;
+  }
 
   .college-name,
   .degree-title {
-    font-size: 19px;
+    font-size: 14px;
+  }
+
+  .bachelor-title,
+  .college-town {
+    font-size: 12px;
   }
 }
